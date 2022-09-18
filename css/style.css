@@ -1,0 +1,33 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+@import "variables.css";
+@import "reset.css";
+
+/*components*/
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
+
+/*screens*/
+@import "screens/index.css";
+@import "screens/friends.css";
+
+
+/*@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Pretendard';
+    padding: 20px 20px 0px 20px;
+}
+
+#screen{
+    padding-top: 100px;
+}

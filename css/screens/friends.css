@@ -1,0 +1,24 @@
+
+.friends__pop-up{
+    display:flex;
+    justify-content: center;
+    color: var(--gray);
+    font-size: 0.9em;
+    background-color: rgb(243, 243, 243);
+    padding: 8px 0px;
+    margin-bottom: 30px;
+}
+.friends__pop-up span{
+    margin: 0px 5px;
+}
+.friends__girls-page{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7em;
+    color: var(--gray);
+    font-weight: 600;
+    padding: 10px 0px;
+    margin: 20px 0px 10px 0px;
+    border-top:solid 1px rgb(220, 220, 220);
+}

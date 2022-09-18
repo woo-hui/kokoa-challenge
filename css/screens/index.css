@@ -1,0 +1,45 @@
+.welcome-header{
+    text-align:center;
+    margin-top: 130px;
+}
+.welcome-header .fa-face-grin-hearts{
+    font-size: 4em;
+}
+.welcome-header h1{
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.welcome-header p{
+    color: var(--gray);
+    margin-top: 25px;
+    line-height: 20px;
+}
+#login-form{
+    display:flex;
+    flex-direction: column;
+    margin: 50px 25px;
+}
+#login-form input{
+    border: none;
+    padding: 15px 0px;
+}
+#login-form input:not([type="submit"]){
+    font-size: 1em;
+    border-bottom: solid 1px var(--light-gray);
+
+}
+#login-form input::placeholder {
+    color: var(--gray);
+}
+#login-form input[value="Join Us"]{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: var(--pink);
+}
+#login-form a{
+    text-align:center;
+    font-size: 0.7em;
+    color: var(--gray);
+    margin-top: 15px;
+}

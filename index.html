@@ -4,22 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>The Women Who I Love</title>
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar">Girls! 그래프 아이콘</div>
-      <div class="status-bar"><span>23:59</span></div>
-      <div class="status-bar">100 하트아이콘</div>
+      <div class="status-bar__column">
+        <span>Girls!</span>
+        <i class="fa-solid fa-signal"></i>
+      </div>
+      <div class="status-bar__column"><span>23:59</span></div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-regular fa-face-grin-hearts"></i>
+      </div>
     </div>
-    <header class="welcome-title">
+    <header class="welcome-header">
+    <i class="fa-regular fa-face-grin-hearts"></i>
       <h1>I Love This Girls!</h1>
       <p>
-        If you want to join this club, log in with your email or phone number.
+        If you want to join this club, </br> log in with your email or phone number.
       </p>
     </header>
-    <form id="login-form" action="frieds.html" method="get">
+    <form id="login-form" action="friends.html" method="get">
       <input
         name="username"
         required
@@ -27,9 +41,13 @@
         placeholder="Email or Phone number"
       />
       <input name="password" required type="password" placeholder="Password" />
-      <input type="submit" value="Join Us!" />
-      <input type="submit" value="Welcome!" />
+      <input type="submit" value="Join Us" />
+      <input type="submit" value="Welcome" />
       <a href="#"> I forget my Account or Password </a>
     </form>
   </body>
+  <script
+    src="https://kit.fontawesome.com/70e207f29d.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

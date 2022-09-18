@@ -1,0 +1,71 @@
+.user-component{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-component__avatar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-component__avatar img{
+    width: 60px;
+    height:60px;
+    border-radius: 40%;
+    object-fit:cover;
+}
+.user-component__text{
+    display:flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.user-component__text span{
+    font-size:0.8em;
+    color: var(--gray);
+    margin-top: 8px;
+}
+.user-component__more{
+    font-size: 0.7em;
+    color: var(--gray);
+}
+
+/*user-component__myself*/
+.user-component__myself img{
+    width: 70px;
+    height: 70px;
+}
+.user-component__myself h1{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/*girls-list*/
+.friends__girls .user-component{
+    margin-bottom: 30px;
+}
+
+/*user-chat*/
+.user-chat h1{
+    font-weight: 700;
+}
+.user-component__time{
+    font-size: 0.7em;
+    color: var(--gray);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.alarm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5em;
+    background-color: var(--pink);
+    color: white;
+    width: 17px;
+    height:17px;
+    border-radius: 50%;
+}
+.chat-alarm{
+    margin-top: 10px;
+}
